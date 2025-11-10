@@ -1,0 +1,20 @@
+html{scroll-behavior: smooth;}
+body { background-color: red; }
+.container { max-width: 1200px; min-height: 10rem; margin: auto; background-color: white; padding: 1rem;}
+#pageheader, #media, #career, #pagecontent, #semester1, #semester2, #pagefooter, #subfooter {
+    min-height: 10rem; padding: 1rem;
+}
+#pageheader { background-color: coral; min-height: auto;}
+#pageheader .nav{text-align: center; }
+#logo { background-color: lightcoral; background-image: url(Logostuff/betterlogo.jpg); width: 6.25rem; height: 6.25rem; border: 1px lightblue; background-position: center; background-size: cover; }
+#media { background-color: lightblue; background-image: url(Webimgs/heroimage-2.png); background-size: cover; background-position: center; aspect-ratio: 16/9; }
+#career { background-color: aqua; }
+#pagecontent { background-color: lightgreen; }
+blockquote { font-style: italic; }
+blockquote + span { font-weight: bold;}
+#semester1 { background-color: aquamarine; }
+#semester2 { background-color: lightgreen; }
+#pagefooter { background-color: cornflowerblue; }
+#pagefooter .container { background-color: black; min-height: auto; text-align: center;}
+#subfooter { background-color: steelblue; }
+audio { border: 5px solid steelblue; background-color: steelblue; display: block; margin: auto; }
