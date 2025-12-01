@@ -14,7 +14,9 @@ blockquote { font-style: italic; }
 blockquote + span { font-weight: bold;}
 #semester1 { background-color: aquamarine; }
 #semester2 { background-color: lightgreen; }
-#pagefooter { background-color: cornflowerblue; }
+#pagefooter { background-color: cornflowerblue; min-height: auto;}
 #pagefooter .container { background-color: black; min-height: auto; text-align: center;}
+#ai\ footer { background-color: navy; padding: 1rem; min-height: auto;}
+#ai\ footer .container { color: white; text-align: center; min-height: auto; }
 #subfooter { background-color: steelblue; }
 audio { border: 5px solid steelblue; background-color: steelblue; display: block; margin: auto; }
