@@ -1,10 +1,15 @@
 html{scroll-behavior: smooth;}
 body { background-color: red; }
-.container { max-width: 1200px; min-height: 10rem; margin: auto; background-color: white; padding: 1rem;}
-#pageheader, #media, #career, #pagecontent, #semester1, #semester2, #pagefooter, #subfooter {
-    min-height: 10rem; padding: 1rem;
-}
-#pageheader { background-color: coral; min-height: auto;}
+.NavContainer {max-width: 1200px;min-height: 10rem; margin: auto;background-color: white;padding: 1rem;list-style: square; padding-left: 0;
+    /* responsive boxes */display: grid;grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));gap: 1rem; align-items: start;}
+    /* individual items inside the nav become cards/boxes */
+.NavContainer > * {display: block;   /* works for li, a, div, etc. */background: #fff;border: 1px solid #e0e0e0; padding: 1rem;border-radius: 8px;box-shadow: 0 2px 6px rgba(0,0,0,0.06);text-align: center;}
+.NavContainer > *:hover {box-shadow: 0 4px 12px rgba(0,0,0,0.1);transform: translateY(-2px);transition: all 0.3s ease;
+    /* keep links readable */
+.NavContainer a { color: inherit; text-decoration: none; }
+    /* keep the original page section rule */
+#pageheader, #media, #career, #pagecontent, #semester1, #semester2, #pagefooter, #subfooter {min-height: 10rem; padding: 1rem;}}
+#pageheader { background-color: coral; }
 #pageheader .nav{text-align: center; }
 #logo { background-color: lightcoral; background-image: url(Logostuff/betterlogo.jpg); width: 6.25rem; height: 6.25rem; border: 1px lightblue; background-position: center; background-size: cover; }
 #media { background-color: lightblue; background-image: url(Webimgs/heroimage-2.png); background-size: cover; background-position: center; aspect-ratio: 16/9; }
@@ -14,9 +19,11 @@ blockquote { font-style: italic; }
 blockquote + span { font-weight: bold;}
 #semester1 { background-color: aquamarine; }
 #semester2 { background-color: lightgreen; }
-#pagefooter { background-color: cornflowerblue; min-height: auto;}
-#pagefooter .container { background-color: black; min-height: auto; text-align: center;}
-#ai\ footer { background-color: navy; padding: 1rem; min-height: auto;}
-#ai\ footer .container { color: white; text-align: center; min-height: auto; }
+#pagefooter { background-color: cornflowerblue; }
+#pagefooter .container { background-color: black; text-align: center;}
+#ai\ footer { background-color: navy; padding: 1rem; }
+#ai\ footer .container { color: white; text-align: center; }
 #subfooter { background-color: steelblue; }
+cursor{ pointer;  color:#589;}
 audio { border: 5px solid steelblue; background-color: steelblue; display: block; margin: auto; }
+@media screen and (min width:650px){#pagecontent {background-color: purple;}}
