@@ -1,54 +1,76 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Box Justify content</title>
-    <style>
-        h1 ,h2{text-align: center;}
-        #container001{border: 5px solid black; background-color: rgb(227, 62, 62); margin: 1rem;}
-        #container002{border: 5px solid black; background-color: rgb(165, 88, 88); margin: 1rem;}
-        #container003{border: 5px solid black; background-color: rgb(108, 28, 28); margin: 1rem;}
-        .box{border: 1px; background-color: lightblue; width: 100%; height: 100%; padding:.5rem;}
-        @media screen and (min-width:800px) {
-            body {background-color: rgb(30, 52, 151);}
-            
-        }
-    </style>
-</head>
-<body>
-    <h1>Flexbox </h1>
-    <h2>justify-content</h2>
-    <ul>
-        <li>flex_end</li>
-        <li>flex_center</li>
-        <li>flex_start</li>
-        <li>space_between</li>
-        <li>space_around</li>
-        <li>space_evenly</li>
-    </ul>
-    <h2> Container001</h2>
-    <div id="container001">
-        <div class="box">item01</div>
-        <div class="box">item02</div>
-        <div class="box">item03</div>
-        <div class="box">item04</div>
-        <div class="box">item05</div>
-    </div>
-    <div id="container002">
-        <div class="box">item01</div>
-        <div class="box">item02</div>
-        <div class="box">item03</div>
-        <div class="box">item04</div>
-        <div class="box">item05</div>
-    </div>
-    <div id="container003">
-        <div class="box">item01</div>
-        <div class="box">item02</div>
-        <div class="box">item03</div>
-        <div class="box">item04</div>
-        <div class="box">item05</div>
-    </div>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Justify Content Application</title>
+    <style>
+        /* ul#list {
+            border: 1px solid black;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            width: 50%;
+            margin: auto;
+        } */
+    </style>
+
+    <style>
+        button {
+            padding: .5rem;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            width: 200px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flexbox Justify Content Application</h1>
+
+    <h2>Lists</h2>
+    <ul id="list">
+        <li>Inline</li>
+        <li>Block</li>
+        <li>Flexbox</li>
+        <li>Grid</li>
+    </ul>
+
+    <h2>Buttons</h2>
+    <button type="button">Button 1</button>
+    <button type="button">Button 2</button>
+    <button type="button">Button 3</button>
+    <button type="button">Button 4</button>
+    <button type="button">Button 5</button>
+
+    <h2>Cards</h2>
+    <div class="card">
+        <h3>Card Title 1</h3>
+        <p>This is a description for card 1.</p>
+    </div>
+    <div class="card">
+        <h3>Card Title 2</h3>
+        <p>This is a description for card 1.</p>
+    </div>
+    <div class="card">
+        <h3>Card Title 3</h3>
+        <p>This is a description for card 1.</p>
+    </div>
+
+    <h2>Link Lists</h2>
+    <ul>
+        <li><a href="https://google.com/">Google</a></li&gt;
+        <li><a href="https://google.com/">Google</a></li&gt;
+        <li><a href="https://google.com/">Google</a></li&gt;
+        <li><a href="https://google.com/">Google</a></li&gt;
+    </ul>
 </body>
+
 </html>
