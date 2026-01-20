@@ -1,5 +1,5 @@
 html{scroll-behavior: smooth;}
-body { background-color: red; }
+body { background-color: rgb(2, 18, 118); }
 .NavContainer {max-width: 1200px;min-height: 10rem; margin: auto;background-color: white;padding: 1rem;list-style: square; padding-left: 0;
     /* responsive boxes */display: grid;grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));gap: 1rem; align-items: start;}
     /* individual items inside the nav become cards/boxes */
@@ -9,16 +9,16 @@ body { background-color: red; }
 .NavContainer a { color: inherit; text-decoration: none; }
     /* keep the original page section rule */
 #pageheader, #media, #career, #pagecontent, #semester1, #semester2, #pagefooter, #subfooter {min-height: 10rem; padding: 1rem;}}
-#pageheader { background-color: coral; }
+#pageheader { background-color: rgb(12, 12, 112); }
 #pageheader .nav{text-align: center; }
-#logo { background-color: lightcoral; background-image: url(Logostuff/betterlogo.jpg); width: 6.25rem; height: 6.25rem; border: 1px lightblue; background-position: center; background-size: cover; }
-#media { background-color: lightblue; background-image: url(Webimgs/heroimage-2.png); background-size: cover; background-position: center; aspect-ratio: 16/9; }
-#career { background-color: aqua; }
-#pagecontent { background-color: lightgreen; }
+#logo { background-color: rgb(175, 31, 31); background-image: url(Logostuff/betterlogo.jpg); width: 6.25rem; height: 6.25rem; border: 1px lightblue; background-position: center; background-size: cover; }
+#media { background-color: rgb(73, 34, 137); background-image: url(Webimgs/heroimage-2.png); background-size: cover; background-position: center; aspect-ratio: 16/9; }
+#career { background-color: rgba(163, 33, 33, 0.739); }
+#pagecontent { background-color: rgba(107, 29, 17, 0.748); }
 blockquote { font-style: italic; }
 blockquote + span { font-weight: bold;}
-#semester1 { background-color: aquamarine; }
-#semester2 { background-color: lightgreen; }
+#semester1 { background-color: rgba(14, 33, 157, 0.819); }
+#semester2 { background-color: rgb(120, 53, 125); }
 #pagefooter { background-color: cornflowerblue; }
 #pagefooter .container { background-color: black; text-align: center;}
 #ai\ footer { background-color: navy; padding: 1rem; }
