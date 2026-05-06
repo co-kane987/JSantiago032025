@@ -1,5 +1,11 @@
 :root { --primary-color: rgb(2, 18, 118); --secondary-color: rgb(175, 31, 31); tertiary-color: rgb(73, 34, 137); --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 html{scroll-behavior: smooth;}
+font-family: "paper-clip-nova-basic", sans-serif;
+font-weight: 300;
+font-style: normal;
+font-family: "paper-clip-nova-outline", sans-serif;
+font-weight: 500;
+font-style: normal;
 body { background-color: rgb(2, 18, 118); }
 div, section, header, footer, nav { border-radius: 1%;border-style: inset; border-width: 1px; border-color: rgb(255, 255, 255); background-color: var(t); }
 div(class="NavContainer") { max-width: 12000px; margin: auto; }
