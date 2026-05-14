@@ -1,13 +1,10 @@
-:root { --primary-color: rgb(2, 18, 118); --secondary-color: rgb(175, 31, 31); tertiary-color: rgb(73, 34, 137); --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+:root { --primary-color: rgb(2, 18, 118); --secondary-color: rgb(175, 31, 31); --tertiary-color: rgb(73, 34, 137); --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 html{scroll-behavior: smooth;}
-font-family: "paper-clip-nova-basic", sans-serif;
+.paper_clip_nova_basic{font-family: "paper-clip-nova-basic", sans-serif;}
 font-weight: 300;
 font-style: normal;
-font-family: "paper-clip-nova-outline", sans-serif;
-font-weight: 500;
-font-style: normal;
 body { background-color: rgb(2, 18, 118); }
-div, section, header, footer, nav { border-radius: 1%;border-style: inset; border-width: 1px; border-color: rgb(255, 255, 255); background-color: var(t); }
+div, section, header, footer, nav { border-radius: 1%;border-style: inset; border-width: 1px; border-color: rgb(255, 255, 255); background-color: var(--tertiary-color); }
 div(class="NavContainer") { max-width: 12000px; margin: auto; }
 .NavContainer {max-width: 1200px;min-height: 10rem; margin: auto;background-color: white;padding: 1rem;list-style: square; padding-left: 0;
     /* responsive boxes */display: grid;grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));gap: 1rem; align-items: start;}
@@ -21,7 +18,7 @@ div(class="NavContainer") { max-width: 12000px; margin: auto; }
 #pageheader { background-color: rgb(12, 12, 112); }
 #pageheader .nav{text-align: center; }
 #logo { background-color: rgb(175, 31, 31); background-image: url(Logostuff/betterlogo.jpg); width: 6.25rem; height: 6.25rem; border: 1px lightblue; background-position: center; background-size: cover; transition: all 0.3s ease;margin-left: auto; box-shadow: 0 4px 8px rgba(5,4,4,4);}
-#media { background-color: rgb(73, 34, 137); background-image: url(Images/bruh.jpg); height:300px; 
+#media { background-color: rgb(73, 34, 137); background-image: url(Images/bruh.jpg); height:60vh; background-size: cover;
     background-position: center; }
 #career { background-color: rgba(163, 33, 33, 0.739); }
 #pagecontent { background-color: rgba(107, 29, 17, 0.748); }
