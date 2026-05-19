@@ -22,17 +22,20 @@ div(class="NavContainer") { max-width: 12000px; margin: auto; }
 #logo { background-color: rgb(175, 31, 31); background-image: url(Logostuff/betterlogo.jpg); width: 6.25rem; height: 6.25rem; border: 1px lightblue; background-position: center; background-size: cover; transition: all 0.3s ease;margin-left: auto; box-shadow: 0 4px 8px rgba(5,4,4,4);}
 #media { background-color: rgb(73, 34, 137); background-image: url(Images/bruh.jpg); height:60vh; background-size: cover;
     background-position: center; }
-#career { background-color: rgba(163, 33, 33, 0.739); }
+#career { background-color: rgba(163, 33, 33, 0.739); padding: 1rem; }
 #pagecontent { background-color: rgba(107, 29, 17, 0.748); }
 blockquote { font-style: italic; }
 blockquote + span { font-weight: bold;}
-#semester1 { background-color: rgba(14, 33, 157, 0.819); }
-#semester2 { background-color: rgb(120, 53, 125); }
+#semester1 { background-color: rgba(14, 33, 157, 0.819); padding: 1rem; }
+.container{ padding: 1rem; }
+#semester2 { background-color: rgb(120, 53, 125);padding: 1rem; }
+#certificates { background-color: rgb(120, 53, 125); padding: 1rem;list-style-type: none;}
 #pagefooter { background-color: cornflowerblue; }
 #pagefooter .container { background-color: black; text-align: center;}
-#ai\ footer { background-color: navy; padding: 1rem; }
-#ai\ footer .container { color: white; text-align: center; }
-#subfooter { background-color: steelblue; }
+nav{padding: 1rem;}
+#aifooter { background-color: navy; padding: 1rem; padding: 1rem; }
+#aifooter .container { color: white; text-align: center; }
+#subfooter { background-color: steelblue; padding: 1rem; text-align: center;}
 cursor{ url(Webimgs/cursor.png), auto; }
 audio { border: 5px solid steelblue; background-color: steelblue; display: block; margin: auto; }
 @media screen and (min-width:650px){#pagecontent {background-color: purple;} #logo {width: 8.25rem; height: 8.25rem; margin: 1rem auto;} }
