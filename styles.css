@@ -1,41 +1,38 @@
-:root { --primary-color: rgb(2, 18, 118); --secondary-color: rgb(175, 31, 31); --tertiary-color: rgb(73, 34, 137); --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-html{scroll-behavior: smooth;}
-.paper_clip_nova_basic{font-family: "paper-clip-nova-basic", sans-serif;}
-font-weight: 300;
-font-style: normal;
-body { background-color: rgb(2, 18, 118); }
-a {text-decoration: underline; color: rgb(63, 111, 195); }
+:root { --primary-color: #000; --secondary-color: #666; --tertiary-color: #333; --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+html { scroll-behavior: smooth; }
+.paper_clip_nova_basic { font-family: "paper-clip-nova-basic", sans-serif; }
+body { background-color: #000; color: #fff; cursor: url(Webimgs/cursor.png), auto; }
+a { text-decoration: underline; color: #ccc; }
 
-div, section, header, footer, nav { border-radius: 1%;border-style: inset; border-width: 1px; border-color: rgb(255, 255, 255); background-color: var(--tertiary-color); }
-div(class="NavContainer") { max-width: 12000px; margin: auto; }
-.NavContainer {max-width: 1200px;min-height: 10rem; margin: auto;background-color: white;padding: 1rem;list-style: square; padding-left: 0;
-    /* responsive boxes */display: grid;grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));gap: 1rem; align-items: start;}
-    /* individual items inside the nav become cards/boxes */
-.NavContainer > * {display: block;   /* works for li, a, div, etc. */background: #fff;border: 1px solid #e0e0e0; padding: 1rem;border-radius: 8px;box-shadow: 0 2px 6px rgba(0,0,0,0.06);text-align: center;}
-.NavContainer > *:hover {box-shadow: 0 4px 12px rgba(0,0,0,0.1);transform: translateY(-2px);transition: all 0.3s ease;
-    /* keep links readable */
+div, section, header, footer, nav { border-radius: 1%; border-style: inset; border-width: 1px; border-color: #fff; background-color: var(--tertiary-color); color: #fff; }
+.NavContainer { max-width: 1200px; min-height: 10rem; margin: auto; background-color: #fff; padding: 1rem; list-style: square; padding-left: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1rem; align-items: start; }
+.NavContainer > * { display: block; background: #fff; border: 1px solid #e0e0e0; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.06); text-align: center; }
+.NavContainer > *:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-2px); transition: all 0.3s ease; }
 .NavContainer a { color: inherit; text-decoration: none; }
-    /* keep the original page section rule */
-#pageheader, #media, #career, #pagecontent, #semester1, #semester2, #pagefooter, #subfooter {min-height: 10rem; padding: 1rem;}}
-#pageheader { background-color: rgb(12, 12, 112); }
-#pageheader .nav{text-align: center; }
-#logo { background-color: rgb(175, 31, 31); background-image: url(Logostuff/betterlogo.jpg); width: 6.25rem; height: 6.25rem; border: 1px lightblue; background-position: center; background-size: cover; transition: all 0.3s ease;margin-left: auto; box-shadow: 0 4px 8px rgba(5,4,4,4);}
-#media { background-color: rgb(73, 34, 137); background-image: url(Images/bruh.jpg); height:60vh; background-size: cover;
-    background-position: center; }
-#career { background-color: rgba(163, 33, 33, 0.739); padding: 1rem; }
-#pagecontent { background-color: rgba(107, 29, 17, 0.748); }
+li{list-style-type: inherit ;}
+#pageheader, #media, #career, #pagecontent, #semester1, #semester2, #pagefooter, #subfooter { min-height: 10rem; padding: 1rem; }
+#pageheader { background-color: #111; }
+#pageheader .nav { text-align: center; }
+#logo { background-color: #333; background-image: url(Logostuff/betterlogo.jpg); width: 6.25rem; height: 6.25rem; border: 1px solid #bbb; background-position: center; background-size: cover; transition: all 0.3s ease; margin-left: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.4); }
+#media { background-color: #222; background-image: url(Images/bruh.jpg); height: 60vh; background-size: cover; background-position: center; }
+#career { background-color: rgba(51, 51, 51, 0.84); padding: 1rem; }
+#pagecontent { background-color: rgba(40, 40, 40, 0.75); }
 blockquote { font-style: italic; }
-blockquote + span { font-weight: bold;}
-#semester1 { background-color: rgba(14, 33, 157, 0.819); padding: 1rem; }
-.container{ padding: 1rem; }
-#semester2 { background-color: rgb(120, 53, 125);padding: 1rem; }
-#certificates { background-color: rgb(120, 53, 125); padding: 1rem;list-style-type: none;}
-#pagefooter { background-color: cornflowerblue; }
-#pagefooter .container { background-color: black; text-align: center;}
-nav{padding: 1rem;}
-#aifooter { background-color: navy; padding: 1rem; padding: 1rem; }
-#aifooter .container { color: white; text-align: center; }
-#subfooter { background-color: steelblue; padding: 1rem; text-align: center;}
-cursor{ url(Webimgs/cursor.png), auto; }
-audio { border: 5px solid steelblue; background-color: steelblue; display: block; margin: auto; }
-@media screen and (min-width:650px){#pagecontent {background-color: purple;} #logo {width: 8.25rem; height: 8.25rem; margin: 1rem auto;} }
+blockquote + span { font-weight: bold; }
+#semester1 { background-color: rgba(60, 60, 60, 0.82); padding: 1rem; }
+.container { padding: 1rem; }
+#semester2 { background-color: #444; padding: 1rem; }
+section#worksamples li{list-style-type: none;}
+section#certificates { background-color: #444; padding: 1rem; list-style-type: none; }
+section#certificates li { list-style-type: none; }
+#pagefooter { background-color: #222; }
+#pagefooter .container { background-color: #000; text-align: center; }
+nav { padding: 1rem; }
+#aifooter { background-color: #111; padding: 1rem; }
+#aifooter .container { color: #fff; text-align: center; }
+#subfooter { background-color: #333; padding: 1rem; text-align: center; }
+audio { border: 5px solid #666; background-color: #333; display: block; margin: auto; }
+@media screen and (min-width: 650px) {
+  #pagecontent { background-color: #222; }
+  #logo { width: 8.25rem; height: 8.25rem; margin: 1rem auto; }
+}
